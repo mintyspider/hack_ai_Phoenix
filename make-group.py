@@ -37,7 +37,7 @@ def extract_first_word(db_path, table_name, source_column, target_column):
     conn.close()
 
 # Пример использования
-db_path = 'C:\Users\Анастасия\OneDrive\Рабочий стол\Phoenix_Database.accdb' # Поменять на свой путь нахождения бд
+db_path = '' # Поменять на свой путь нахождения бд
 table_name = 'Группы'
 source_column = 'Товар'
 target_column = 'Группа'
